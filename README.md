@@ -29,7 +29,7 @@ CHQTCSDL-Oracle cho môn các hệ quản trị cơ sở dự liệu trên Oracl
 - `Backend`: Node.js, Express.js
 - `Cơ Sở Dữ Liệu`: Oracle
 - `Quản Lý Phiên Bản`: Git (GitHub), GitKraken (nếu biết)
-- `Quản Lý Dự Án`: [Jira](https://tthanh112.atlassian.net/jira/software/projects/LTWNC/boards/5)
+- `Quản Lý Dự Án`: [Jira](https://ttazip2003.atlassian.net/jira/software/projects/CHQTCO/boards/4)
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
   <img width="12" />
@@ -45,6 +45,6 @@ CHQTCSDL-Oracle cho môn các hệ quản trị cơ sở dự liệu trên Oracl
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="mongodb logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="oracle logo"  />
   <img width="12" />
 </div>
