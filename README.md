@@ -1,6 +1,6 @@
 # CHQTCSDL-Oracle
 CHQTCSDL-Oracle cho môn các hệ quản trị cơ sở dự liệu trên Oracle...
-# :computer: **PROJECT MÔN HỌC HỆ QUẢN TRỊ CSDL ORACLE - ĐỀ TÀI ỨNG DỤNG RAO VẶT** :computer_mouse:
+# :computer: **PROJECT MÔN HỌC HỆ QUẢN TRỊ CSDL ORACLE - ĐỀ TÀI ỨNG DỤNG TÌM VIỆC** :computer_mouse:
 
 ## :man_technologist: **Thành Viên Của Nhóm** :woman_technologist:
 |STT    | Họ và Tên          | Mã Sinh Viên |
@@ -11,7 +11,7 @@ CHQTCSDL-Oracle cho môn các hệ quản trị cơ sở dự liệu trên Oracl
 |4    | Phạm Hải Sơn   | 21DH112887   |
 
 ## :dart: **Mục Đích:** 
-Áp dụng HQT CSDL Oracle vào ứng dụng rao vặt để phát triển dự án (Mua bán sản phẩm giữa người dùng với người dùng).
+Áp dụng HQT CSDL Oracle vào ứng dụng tìm việc để phát triển dự án.
 
 ### :pushpin: Mục Tiêu: 
 - Có đầy đủ các chức năng cơ bản của 1 ứng dụng rao vặt
