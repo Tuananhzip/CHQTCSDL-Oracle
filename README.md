@@ -12,7 +12,7 @@ CHQTCSDL-Oracle cho môn các hệ quản trị cơ sở dự liệu trên Oracl
 Áp dụng HQT CSDL Oracle vào ứng dụng tìm việc để phát triển dự án.
 
 ### :pushpin: Mục Tiêu: 
-- Có đầy đủ các chức năng cơ bản của 1 ứng dụng rao vặt
+- Có đầy đủ các chức năng cơ bản của 1 ứng dụng tìm việc
 - Code xong các giao diện 
 - Kết nối database thành công
 - Hosting thành công
