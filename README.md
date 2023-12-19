@@ -7,8 +7,6 @@ CHQTCSDL-Oracle cho môn các hệ quản trị cơ sở dự liệu trên Oracl
 |---    |--------------------|--------------|
 |1    | Trần Tuấn Anh | 21DH113456   |
 |2    | Trần Ngọc Khánh   | 21DH112571   |
-|3    | Nguyễn Trọng Phúc | 21DH111449   |
-|4    | Phạm Hải Sơn   | 21DH112887   |
 
 ## :dart: **Mục Đích:** 
 Áp dụng HQT CSDL Oracle vào ứng dụng tìm việc để phát triển dự án.
