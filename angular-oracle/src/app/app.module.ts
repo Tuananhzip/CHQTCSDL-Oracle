@@ -1,18 +1,16 @@
-import { NgModule } from '@angular/core';
+import { HostBinding, NgModule, effect, signal } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './Client/home/home.component';
+import { HeaderComponent } from './Component/header/header.component';
+import { FooterComponent } from './Component/footer/footer.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, HomeComponent, HeaderComponent, FooterComponent],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

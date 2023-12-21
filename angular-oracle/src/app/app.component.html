@@ -1,3 +1,8 @@
-<h1 class="text-3xl font-bold underline text-red-600 text-center">
-  Hello world!
-</h1>
+<app-header [darkMode]="darkMode()" (toggleDarkMode)="toggleDarkMode()"></app-header>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+
+<!-- <button (click)="darkMode.set(!darkMode())" class="btn-blue">
+  <span *ngIf="!darkMode()">Dark</span>
+  <span *ngIf="darkMode()">Light</span>
+</button> -->
