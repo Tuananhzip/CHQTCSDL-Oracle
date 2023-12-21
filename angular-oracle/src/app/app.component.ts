@@ -8,7 +8,7 @@ import { Component, HostBinding, effect, signal, Input } from '@angular/core';
 export class AppComponent {
   title = 'angular-oracle';
   darkMode = signal<boolean>(
-    JSON.parse(window.localStorage.getItem('darkMode') ?? 'false')
+    JSON.parse(window.localStorage.getItem('darkMode') ? 'false' : 'true')
   );
   constructor() {
     effect(() => {
