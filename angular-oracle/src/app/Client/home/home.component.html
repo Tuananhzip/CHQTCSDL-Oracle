@@ -1,1 +1,43 @@
-<h1>test</h1>
+<div class="bg-gradient-to-r from-gray-950 to-primary/80">
+    <div class="container mx-auto">
+        <div class="grid grid-cols-1 w-full md:px-24 p-2 sm:px-16 sm:p-8">
+            <div class="text-white md:text-3xl text-xl mb-2 font-bold">
+                Tìm việc làm cho mọi người thiệt "Chất"
+            </div>
+            <form action="">
+                <div class="flex justify-between md:gap-6 gap-2 items-center">
+                    <div class="relative" id="dropdownButton">
+                        <div (click)="onDropdown()"
+                            class="flex justify-between items-center whitespace-nowrap select-none shadow-sm md:gap-1 gap-0 border-solid border-gray-400 bg-white border-[1px] md:px-6 md:py-2 px-2 py-1 text-sm md:text-base text-gray-600 rounded cursor-pointer font-bold">
+                            Thành phố
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="md:w-6 md:h-6 w-4 h-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+
+
+                        </div>
+                        <div id="dropdown"
+                            class="rounded border-gray-500 bg-white absolute w-full border-[1px] top-[50px] shadow-md select-none"
+                            [ngClass]="{'hidden':!isDropdown}">
+                            <div class="cursor-pointer hover:bg-gray-300 px-4 py-2">Option 1</div>
+                            <div class="cursor-pointer hover:bg-gray-300 px-4 py-2">Option 2</div>
+                            <div class="cursor-pointer hover:bg-gray-300 px-4 py-2">Option 3</div>
+                            <div class="cursor-pointer hover:bg-gray-300 px-4 py-2">Option 4</div>
+                        </div>
+                    </div>
+                    <input type="search" placeholder="Nhập từ khóa theo kỹ năng, chức năng, công ty..."
+                        class="md:px-4 md:py-2 px-2 py-1 rounded-md focus:outline text-sm md:text-base focus:ring-1 focus:ring-emerald-400 font-semibold w-full placeholder:font-normal">
+                    <button
+                        class="btn-green bg-emerald-700 hover:bg-emerald-900 shadow-xl hover:scale-105 md:px-6 md:py-2 px-2 py-1 text-sm md:text-base flex gap-1"
+                        type="button">Search<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="md:w-6 md:h-6 w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -13,7 +13,7 @@ module.exports = {
       colors: {
         primary: "#10b981", //Xanh nhẹ
         secondary: "#15803d", // Xanh đậm
-        white: "#fafafa", //background white cơ bản
+        // white: "#fafafa", //background white cơ bản
       },
       animation: {
         "spin-slow": "spin 3s linear infinite",
